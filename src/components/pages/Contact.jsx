@@ -1,0 +1,22 @@
+import "./Contact.css"
+
+const Contact = () => {
+  return (
+    <section className="contact-section">
+      <div className="contact-content">
+        <h2 className="title">UBICACION</h2>
+        <p>
+        Ruta 10 y Los silencios, La Barra, Barra De Maldonado, Maldonado, Uruguay 20001
+        </p>
+      </div>
+      <div className="contact-image">
+        <img
+          src="assets/location2.jpg"
+          alt="Local Image"
+        />
+      </div>
+    </section>
+  );
+};
+
+export default Contact;

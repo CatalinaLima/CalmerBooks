@@ -1,0 +1,65 @@
+.card-detail_img{  
+    width: 580px;
+    object-fit: cover;
+  }
+  
+  .card-detail_img img{
+    max-width: 500px;
+  }
+  
+  .card-detail_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 40px auto;  
+    min-height: 600px;
+    width: 980px;
+    background-color: none;
+    overflow: hidden;  
+    transition: all 0.20s ease-in;
+  }
+  
+  
+  .card-detail_detail{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 12px 8px;
+    width: 1000px;
+    margin-left: 20px;
+  }
+  
+  small{
+    color: #8c8c8e;
+  }
+  
+  .card-detail_muted{
+    color: #8c8c8e
+  }
+
+  .idctitle{
+    font-family: 'Quicksand';
+    font-size:20px;
+  }
+
+  .priceTag{
+    color:rgb(145, 102, 10);
+  }
+
+  .btnbtn{
+    padding: 5px 15px;
+    color: rgb(29, 29, 29);
+    background-color: rgb(240, 240, 240);
+    max-width: 150px;
+    margin: 5px 15px;
+    cursor: pointer;  
+    font-family:'Quicksand';
+    font-weight: bolder;
+
+  
+    &:hover{
+      box-shadow: 0px 4px 5px #d7d7db;
+    }
+  }

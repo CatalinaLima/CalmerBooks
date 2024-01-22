@@ -1,0 +1,33 @@
+
+  .titleoc {
+    margin: 20px;
+    font-size: small;
+    
+  }
+  
+  .imgoc {
+    width: 100px;
+    height: 100px;
+  }
+
+  .order{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 50px 50px;
+    font-family: 'Quicksand';
+
+  }
+
+  .orderResume{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cardoc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 20px;
+  }
