@@ -11,6 +11,11 @@ import NavBar from './components/NavBar/NavBar'
 import Menu from './components/pages/Menu'
 import About from './components/pages/About'
 import Contact from './components/pages/Contact'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
+
+
 
 
 

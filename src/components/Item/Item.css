@@ -1,20 +1,3 @@
-a{
-  color: inherit;
-  text-decoration: none;
-}
-
-.font-xl{
-  font-size: 20 px;
-}
-
-.item-card_price-tag_offer{
-  color: green
-}
-
-.item-card_price-tag.offer{
-  color: green;
-}
-
 .item-card{
   color: black;
   text-align: center;
@@ -22,7 +5,7 @@ a{
   margin: 10px 15px;
   padding-bottom: 25px;
   width: 320px;
-  height: 350px;
+  height: 380px;
   overflow: hidden;  
   transition: all 0.20s ease-in;
   cursor: pointer;
@@ -34,8 +17,7 @@ a{
 .item-card_header{
   background-color: none;
   color: rgb(82, 82, 82);
-  font-size: 0.6em;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Quicksand';
 }
 
 .item-card_header h2{
@@ -43,8 +25,10 @@ a{
   margin: 0px;
 }
 
-.item-card_header small{
-  font-size: 12px;
+
+.item_title{
+  font-size: 0.8em;
+  font-weight: bold;
 }
 
 .item-card_img{

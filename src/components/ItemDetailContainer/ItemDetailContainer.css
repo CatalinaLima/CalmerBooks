@@ -18,6 +18,7 @@
     background-color: none;
     overflow: hidden;  
     transition: all 0.20s ease-in;
+    font-family: 'Aboreto';
   }
   
   
@@ -27,20 +28,14 @@
     flex-direction: column;
     justify-content: space-around;
     padding: 12px 8px;
-    width: 1000px;
-    margin-left: 20px;
+    width: 400px;
+    font-size: 1.2em;
   }
   
-  small{
-    color: #8c8c8e;
-  }
-  
-  .card-detail_muted{
-    color: #8c8c8e
-  }
+
 
   .idctitle{
-    font-family: 'Quicksand';
+    font-family: 'Aboreto';
     font-size:20px;
   }
 
@@ -49,17 +44,30 @@
   }
 
   .btnbtn{
-    padding: 5px 15px;
-    color: rgb(29, 29, 29);
-    background-color: rgb(240, 240, 240);
-    max-width: 150px;
-    margin: 5px 15px;
-    cursor: pointer;  
-    font-family:'Quicksand';
-    font-weight: bolder;
+    padding: 8px;
+    color: white;
+    font-size: 10px;
+    max-width: 100px;
+    max-height: 50px;
+    background-color: rgb(49, 50, 49);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
 
   
     &:hover{
       box-shadow: 0px 4px 5px #d7d7db;
     }
+  }
+
+  .botoness{
+    display: flex;
+    flex-direction: row ;
+
+
+
   }

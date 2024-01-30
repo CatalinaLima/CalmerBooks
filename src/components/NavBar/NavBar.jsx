@@ -19,7 +19,7 @@ export default function NavBar() {
                 <li className="logo">
                     <h2>
                         <Link to="/">
-                            CALMER
+                            <img src="/assets/calmer.png" alt="" />
                         </Link>
                     </h2>
                 </li>

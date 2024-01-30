@@ -30,7 +30,7 @@ function Item ({title, image, price, category, color, id, discount, stock}) {
                 <img src={image} alt="imagen"></img>
             </div>
             <div className="item-card_header">
-                <h2>{title}</h2>
+                <h2 className="item_title">{title}</h2>
                 {/* <small>{category}</small> */}
             </div>
             <CardDescription discount={discount} price={price}/>

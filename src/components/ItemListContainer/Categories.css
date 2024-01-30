@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+
 }
 
 .nav-menu-cat{
@@ -9,11 +10,17 @@
     flex-direction: row;
     margin: 20px 20px;
     list-style: none;
-
+    background-color:  rgba(71, 47, 47, 0.2);
+    width: 1020px;
+    height: 40px;
+    align-items: center;
+    border-radius: 10px;
 }
 
 .nav-link-cat{
     margin: 0px 20px;
     font-weight:bold;
     font-family: 'Roboto';
+    color:  rgba(71, 47, 47, 47);
+    
 }
