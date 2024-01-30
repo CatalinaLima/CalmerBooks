@@ -1,14 +1,14 @@
-# AZUCENA STORE ✨
+# CALMER BOOKS & COFFEE ☕
 
 An ecommerce application built with React, Vite and Firebase.
 
 ## Project Description
 
-AZUCENA HOME STORE is an online shopping platform that offers a variety of home products. Users can explore different categories, add products to the shopping cart, place orders, and more.
+Calmer Books & Coffe is an online bookstore. Users can explore different categories, add books to the shopping cart, place orders, and more.
 
 ## Key Features
 
-- **Explore Products:** Browse through various categories of home products.
+- **Explore Products:** Browse through various categories of books.
 - **Add to Cart:** Add products to the shopping cart.
 - **Place Orders:** Complete the checkout process and place orders.
 - **Firebase Integration:** Utilizes Firebase for data storage, authentication management, and real-time operations.
@@ -21,8 +21,8 @@ AZUCENA HOME STORE is an online shopping platform that offers a variety of home 
 
 ## Installation
 
-1. Clone this repository: `git clone https://github.com/yourusername/cata-home-store.git`
-2. Navigate to the project directory: `cd vite-app`
+1. Clone this repository: `git clone https://github.com/yourusername/CalmerBooks.git`
+2. Navigate to the project directory: `cd CalmerStore`
 3. Install dependencies: `npm install`
 
 ## Usage
